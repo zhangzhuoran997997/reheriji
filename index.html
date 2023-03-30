@@ -50,7 +50,7 @@
         <div class="row">
                 <h1 class="col-lg-8" style="float:left">《热河日记》地图数据可视化系统</h1>
                 <div class="col-lg-4 search-bar" style="float:right">
-                    <input type="text" placeholder="Search...">
+                    <input id="search-input" type="text" placeholder="Search...">
                 </div>
         </div>
 <!--    </div>-->
@@ -71,7 +71,7 @@
                             <input type="text" id="time_axis" value="" name="range">
                         </div>
                     </div>
-                    <button type="button" class="btn btn-primary btn-sm" id="search_btn" style="margin-left: 20px;position: absolute; right: 18px;">查询</button></li>
+                    <button type="button" class="btn btn-primary btn-sm" id="search_btn" style="margin-left: 20px;position: absolute; right: 18px;">查询</button>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -84,100 +84,6 @@
         </div>
     </div>
 </div>
-
-
-<!-- 模态框 点击帮助文本等弹出来界面 -->
-<div class="modal fade" id="helpModal">
-    <div class="modal-dialog modal-lg" style="width:1000px">
-        <div class="modal-content" style="max-height: 600px;overflow:auto;">
-
-            <!-- 模态框头部 -->
-            <div class="modal-header">
-                <h4 class="modal-title">帮助文档</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">X</span></button>
-            </div>
-
-            <!-- 模态框主体 -->
-            <div class="modal-body">
-                <p>1. 选择事件信息筛选（事件类别、任务、地点）、时间段等过滤条件，再点击“查询”按钮进行查询，相应的结果会显示到地图上。</p>
-                <img class="" src="assets/images/help1.png" alt="" style="width: 600px;" />
-                <p class="modal-p">2. 点击地图上的人物图标，可以显示该人物信息。</p>
-                <img class="" src="assets/images/help2.png" alt="" style="width: 300px;" />
-                <p  class="modal-p">3. 点击地图上的地点图片，会在右侧“事件列表”栏里显示相应的事件。</p>
-                <img class="" src="assets/images/help3.png" alt="" style="width: 500px;" />
-                <p  class="modal-p">4. 点击“事件列表”栏里的，会显示该事件的详细信息</p>
-                <img class="" src="assets/images/help4.png" alt="" style="width: 200px;" />
-            </div>
-
-            <!-- 模态框底部 -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-
-<!-- thanksModal -->
-<div class="modal fade" id="thanksModal">
-    <div class="modal-dialog">
-        <div class="modal-content">
-
-            <!-- 模态框头部 -->
-            <div class="modal-header">
-                <h4 class="modal-title">致谢</h4>
-            </div>
-
-            <!-- 模态框主体 -->
-            <div class="modal-body">
-                感谢束景南先生授权研发团队使用《朱子年谱长编》著作文本。
-            </div>
-
-            <!-- 模态框底部 -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!-- aboutModal -->
-<div class="modal fade" id="aboutModal">
-    <div class="modal-dialog  modal-lg">
-        <div class="modal-content">
-
-            <!-- 模态框头部 -->
-            <div class="modal-header">
-                <h4 class="modal-title">关于我们</h4>
-            </div>
-
-            <!-- 模态框主体 -->
-            <div class="modal-body">
-                <h4 style="font-size: 18px;">系统介绍：</h4>
-                <p>年谱是对某一个历史人物的生平事迹进行系统考证，并按时间顺序记载而形成的一种特殊的中国历史资料，其规范的格式，详尽的内容记载并附有考证依据，对历史学研究意义重大。</p>
-                <p>年谱的主体是事件信息，其中蕴含的实体类型十分丰富，读者想要理顺其中的事件逻辑，不仅要反复阅读分析，还要参考相关资料，包括时代背景知识和实体知识，这需要很好的历史素养和长期的知识积累。在数字化时代背景下，为了方便读者快速梳理事件逻辑，本项目通过建立知识重构表示体系，对朱熹年谱长编进行知识重构，然后利用GIS技术对年谱事件进行时空可视化呈现，实现“编年”与“系地”共现。</p>
-                <p>本项目的主要贡献是提出面向朱熹年谱长编文本的知识重构体系，为构建年谱文本的知识重构通用体系奠定基础；提供了一种基于知识重构实现群体传记的新视角；通过对事件的时空可视化呈现，克服了年谱编撰的重“编年”，而轻“系地”的问题。</p>
-
-                <h4 style="font-size: 18px;">团队成员：</h4>
-                <p>指导教师：王  军、史睿、位  通 <br/>
-                    产品设计：桑宇辰、王睿、陈淑芬<br/>
-                    数据处理：桑宇辰、王睿、陈淑芬<br/>
-                    系统开发：桑宇辰、王睿、汪乐天<br/>
-                    系统升级：黄  绮
-                </p>
-            </div>
-
-            <!-- 模态框底部 -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
-            </div>
-
-        </div>
-    </div>
-</div>
-
 
 <!--过滤器初始化-->
 <script src="my_js/info_filter_and_overly.js" charset="utf-8"></script>

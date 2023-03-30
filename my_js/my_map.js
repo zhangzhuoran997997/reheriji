@@ -106,36 +106,13 @@ $(document).ready(function() {
         L.control.layers(basemaps, geoJSONLayer).addTo(mymap);
     })
 })
-// //年号映射字典
-// var nianhao_dict = {'建炎四年': 1130,
-//     '绍兴元年': 1131, '绍兴二年': 1132, '绍兴三年': 1133, '绍兴四年': 1134,
-//     '绍兴五年': 1135, '绍兴六年': 1136, '绍兴七年': 1137, '绍兴八年': 1138,
-//     '绍兴九年': 1139, '绍兴十年': 1140, '绍兴十一年': 1141, '绍兴十二年': 1142,
-//     '绍兴十三年': 1143, '绍兴十四年': 1144, '绍兴十五年': 1145, '绍兴十六年': 1146,
-//     '绍兴十七年': 1147, '绍兴十八年': 1148, '绍兴十九年': 1149, '绍兴二十年': 1150,
-//     '绍兴二十一年': 1151, '绍兴二十二年': 1152, '绍兴二十三年': 1153, '绍兴二十四年': 1154,
-//     '绍兴二十五年': 1155, '绍兴二十六年': 1156, '绍兴二十七年': 1157, '绍兴二十八年': 1158,
-//     '绍兴二十九年': 1159, '绍兴三十年': 1160, '绍兴三十一年': 1161, '绍兴三十二年': 1162,
-//     '隆兴元年': 1163, '隆兴二年': 1164,
-//     '乾道元年': 1165, '乾道二年': 1166, '乾道三年': 1167, '乾道四年': 1168,
-//     '乾道五年': 1169, '乾道六年': 1170, '乾道七年': 1171, '乾道八年': 1172,
-//     '乾道九年': 1173,
-//     '淳熙元年': 1174, '淳熙二年': 1175, '淳熙三年': 1176, '淳熙四年': 1177,
-//     '淳熙五年': 1178, '淳熙六年': 1179, '淳熙七年': 1180, '淳熙八年': 1181,
-//     '淳熙九年': 1182, '淳熙十年': 1183, '淳熙十一年': 1184, '淳熙十二年': 1185,
-//     '淳熙十三年': 1186, '淳熙十四年': 1187, '淳熙十五年': 1188, '淳熙十六年': 1189,
-//     '绍熙元年': 1190, '绍熙二年': 1191, '绍熙三年': 1192, '绍熙四年': 1193,
-//     '绍熙五年': 1194,
-//     '庆元元年': 1195, '庆元二年': 1196, '庆元三年': 1197, '庆元四年': 1198,
-//     '庆元五年': 1199, '庆元六年': 1200
-// };
 var nianhao_dict = {
-    '六月二十四日辛末':0,
-    '六月二十五日壬申':1,
-    '六月二十六日癸酉':2,
-    '六月二十七日甲戌':4,
-    '六月二十八日乙亥':5,
-    '六月二十九日丙子':6,
+    '六月二十四辛末':0,
+    '六月二十五壬申':1,
+    '六月二十六癸酉':2,
+    '六月二十七甲戌':4,
+    '六月二十八乙亥':5,
+    '六月二十九丙子':6,
     '七月初一丁丑':8,
     '七月二日戊寅':9,
     '七月初三己卯':10,
@@ -171,7 +148,6 @@ var nianhao_dict = {
     '八月初八甲寅':60,
     '八月初九乙卯':61,
 };
-
 
 // 清空图层函数
 // 参数设置：无
@@ -292,19 +268,6 @@ function load_markers_with_events(from_year_bc=0, to_year_bc=61){
                     marker.on("click", load_event(place_id, lat, lng));
                 }
             }
-
-
-            // 添加相关人物籍贯点
-            // var is_person_checked = $('input[id="person"]').prop('checked');
-            // 这里是显示图层是否选择了相关人物
-            // if(is_person_checked){
-            //     load_related_person(from_year_bc, to_year_bc);
-            // }
-
-            // 添加行迹路线
-            //var is_route_checked = $('input[id="route"]').prop('checked');
-            // 这里是显示图层是否选择了路线
-            //if(is_route_checked){
             if (true) {
                 loadPath();
             }
@@ -322,14 +285,14 @@ function loadPath(){
     // 去重
     // 形式：[[地点一坐标，地点二坐标]，[地点二坐标，地点三坐标]]
     var pointsConnectionArray = [];
-    for (var i=0; i<pathPointsArray.length-1; i++){
+    for (let i=0; i<pathPointsArray.length-1; i++){
         pointsConnectionArray.push([pathPointsArray[i],pathPointsArray[i+1]]);
     }
     console.log(pointsConnectionArray)
     // Making the array readable by API
     var pathArray = [];
     // Formatting data to (lat,lng)
-    for (var i = 0; i < pointsConnectionArray.length; i++){
+    for (let i = 0; i < pointsConnectionArray.length; i++){
         // 第一个点的经纬度
         var lng_lat = pointsConnectionArray[i][0].substring(1,pointsConnectionArray[i][0].length-2).split('E,');
         // 第二个点的经纬度
@@ -342,7 +305,7 @@ function loadPath(){
         pathArray.push([[lat,lng],[lat2,lng2]]);
     }
 
-    for (var i = 0; i < pathArray.length; i++){
+    for (let i = 0; i < pathArray.length; i++){
         // Add Arrows to the marker group
         route_line_group.addLayer(new L.swoopyArrow(pathArray[i][0],pathArray[i][1], {
             color:'#ff0059',
@@ -408,16 +371,6 @@ function load_event_cards(place_id, lat, lng){
         //动态生成元数据内容
         var metadata_p = document.createElement("p");
 
-        // var key_arr = {'event_id':'事件id', 'page':'页码',
-        //     'year_bc':'公元年', 'date':'发生时间', 'certain_place_name':'发生地点',
-        //     'related_person':'相关人物', 'reference':'出处', 'event_type':'事件类型',
-        //     'event_collection':'从属的事件集合', 'big_event_collection':'从属的大事件集合',
-        //     'relevant_book':'相关学术书籍', 'study_topics':'相关学术主题',
-        //     'work_name':'著作名', 'work_object':'诗文对象名',
-        //     'official_position':'官职名',
-        //     'communication_object': '通信对象名', "meeting_object":'会面对象名',
-        //     'places_in_the_road':'途经地', 'place_making_home':'寓居地',
-        //     'politics_topic':'议政主题'};
         var key_arr = {
             'precise time':'具体时间',
             'certain_place_name':'具体地点',
@@ -554,8 +507,6 @@ function load_data(range_data) {
 
     from_year = range_data.from_value;
     to_year = range_data.to_value;
-
-    // load_markers_with_events(nianhao_dict[from_year],nianhao_dict[to_year]);
 }
 
 
@@ -566,110 +517,6 @@ function get_time_rang(range_data){
     //console.log('get-from_year',from_year);
 }
 
-
-// 不是很重要
-function load_related_person(from_year_bc=0, to_year_bc=2000){
-    $.ajax({
-        url: 'https://api-nianpu.pkudh.org/person',
-        type: 'get',
-        data: {
-            from_year: from_year_bc,
-            to_year: to_year_bc
-        },
-        success: function (person_data) {
-            //清空原有数据
-            person_marker_group.clearLayers();
-            checked_person_set = new Set();
-
-            //获得当前选中的人物列表
-            $("input[name='person_checkbox']:checked").each(
-                function (){
-                    checked_person_set.add($(this).attr('id'));
-                }
-            );
-
-            var person_arr = JSON.parse(person_data);
-            for(var i=0; i<person_arr.length; i++){
-                var person_name = person_arr[i]['person_name'];
-                var person_id = person_arr[i]['person_id'];
-
-                var home_location_log_lat = person_arr[i]['xy_coordinates'];
-
-                //人物相关且被选中
-                if($.inArray(person_name, related_person)>-1 && checked_person_set.has(person_id)){
-                    //没有籍贯的暂时不管
-                    if(home_location_log_lat){
-                        var lng_lat = home_location_log_lat.substring(1,home_location_log_lat.length-2).split('E,');
-                        //注意这里要转换数据类型
-                        var lng = parseFloat(lng_lat[0]);
-                        var lat = parseFloat(lng_lat[1]);
-                        //创建点
-                        var myIcon = L.icon({
-                            iconUrl: 'my_data/person.png',
-                            iconSize: [50, 50]
-                        });
-                        var marker = L.marker(L.latLng(lat, lng), {icon: myIcon});
-                        marker.id = person_id;
-
-                        //添加提示和二次筛选按钮
-                        //https://jingyan.baidu.com/article/d5c4b52ba281bdda560dc587.html
-                        var person_key_arr = {
-                            'person_id':'CBDB人物id',
-                            'person_altname_from_nianpu':'字号（来自年谱）',
-                            'person_home_place': '籍贯',
-                            'person_altname_from_CBDB': '别名（来自CBDB）',
-                            'person_birth_death_year': '生卒年',
-                            'note':'备注'
-                        };
-                        var info_text = '<h5 style="display:inline">'+ person_name + '</h5>'+
-                            '<button id="perBtn"'
-                            + ' data-id="' + person_id + '"'
-                            + ' class="btn btn-primary" style="float: right;">筛选</button>'
-                            + '</br></br></br>';
-                        for(var key in person_key_arr){
-                            if(person_arr[i][key]){
-                                info_text += '<b>'+ person_key_arr[key] + '</b>'+ '：' + person_arr[i][key] + '</br>';
-                            }
-                        }
-                        marker.bindPopup(info_text);
-                        //二次筛选功能实现
-                        //TODO 发现问题：如果前一个popup没有关闭，按钮就不响应点击
-                        mymap.on("popupopen", function () {
-                            //如果点开的是人物popup
-                            if($("button#perBtn").length>0) {
-                                document.getElementById("perBtn").onclick = function () {
-                                    let clicked_person_id = this.dataset.id;
-                                    $("#person_filter").find("input").prop({'checked': false});
-                                    $("input[name='person_checkbox']#" + clicked_person_id).click();
-                                    // load_data(
-                                    //     {
-                                    //         from_value: nianhao_dict[from_year],
-                                    //         to_value: nianhao_dict[to_year]
-                                    //     }
-                                    // );
-
-                                    clear_map()
-                                    load_markers_with_events(nianhao_dict[from_year],nianhao_dict[to_year]);
-                                };
-                            }
-                        });
-
-                        //人物点击事件
-                        marker.on('click', zoomin(lat, lng));
-
-                        //添加点进点组
-                        person_marker_group.addLayer(marker);
-
-                        //添加点击事件监听（加载事件内容）,注意第二个参数要是一个函数！！
-                        // https://stackoverflow.com/questions/37426809/creating-dynamic-links-with-leaflet-onclick-event
-                        // marker.on("click",load_event(place));
-                    }
-                }
-            }
-        }
-    });
-}
-
 // 聚焦函数
 function zoomin(lat, lng) {
     return function (ev) {
@@ -677,18 +524,6 @@ function zoomin(lat, lng) {
     }
 }
 
-// 设置一些元素的点击函数
-
-//人际交往信息叠加点击事件
-$("input[id='person']").on('click', function (){
-    var is_checked = $(this).prop('checked');
-    if(! is_checked){
-        person_marker_group.clearLayers();
-    }
-    else {
-        load_related_person(nianhao_dict[from_year], nianhao_dict[to_year]);
-    }
-});
 
 //路线信息叠加点击事件
 $("input[id='route']").on('click', function (){
@@ -700,6 +535,24 @@ $("input[id='route']").on('click', function (){
         loadPath();
     }
 });
+
+const searchInput = document.getElementById('search-input');
+searchInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            // 按下的是回车键
+            console.log("!!!!!!!!ok!")
+            const searchString = searchInput.value; // 获取输入框中的值
+            if(searchString){
+                clear_map();
+                mymap.setView([40, 120], 6);
+                console.log("11111",nianhao_dict[searchString])
+                load_markers_with_events(from_year_bc=nianhao_dict[searchString], to_year_bc=nianhao_dict[searchString]+1)
+            }
+
+        }
+    });
+
+
 
 
 $('#search_btn').click(function(){
