@@ -92,17 +92,19 @@ load_markers_with_events();
 load_markers_with_landscape("1");
 // 本质上加了一个图层叠加，在右上角可以选择
 // 添加南宋疆域图 不同颜色显示不同国家
-$.getJSON("/my_data/1142_AD_Song-Jin-Xi_Xia-Dali.json", function(data){
-    var geoJSONLayer = {
-        // 显示地图标记
-        '地图标记': basemap_ano_from_tianditu().addTo(mymap),
-        '使行节点': event_marker_group.addTo(mymap),
-        '使行路线': route_line_group.addTo(mymap),
-        '实景观览': online_marker_group.addTo(mymap)
-    };
+$(document).ready(function() {
+    $.getJSON("my_data/1142_AD_Song-Jin-Xi_Xia-Dali.json", function(data){
+        var geoJSONLayer = {
+            // 显示地图标记
+            '地图标记': basemap_ano_from_tianditu().addTo(mymap),
+            '使行节点': event_marker_group.addTo(mymap),
+            '使行路线': route_line_group.addTo(mymap),
+            '实景观览': online_marker_group.addTo(mymap)
+        };
 
-    // Create layer control
-    L.control.layers(basemaps, geoJSONLayer).addTo(mymap);
+        // Create layer control
+        L.control.layers(basemaps, geoJSONLayer).addTo(mymap);
+    })
 })
 // //年号映射字典
 // var nianhao_dict = {'建炎四年': 1130,
@@ -187,7 +189,7 @@ function clear_map(){
 // 效果：根据传入的起止时间，读取数据并绘制形成点
 function load_markers_with_events(from_year_bc=0, to_year_bc=61){
     $(document).ready(function() {
-        $.getJSON("/my_data/abc.json", function (data) {
+        $.getJSON("my_data/abc.json", function (data) {
             //清空原有数据
             place_location_dict = {};
             place_event_dict = {};
@@ -462,7 +464,7 @@ function change_view(lat, lng){
 
 function load_markers_with_landscape(name){
     $(document).ready(function(){
-        $.getJSON("/my_data/landscope.json", function(data) {
+        $.getJSON("./my_data/landscope.json", function(data) {
             //清空原有数据
             landscope_location_dict = {};
 
