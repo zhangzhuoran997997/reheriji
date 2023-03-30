@@ -541,7 +541,13 @@ searchInput.addEventListener('keydown', function(e) {
         if (e.key === 'Enter') {
             // 按下的是回车键
             console.log("!!!!!!!!ok!")
-            const searchString = searchInput.value; // 获取输入框中的值
+            var searchString = searchInput.value; // 获取输入框中的值
+            for(let a in nianhao_dict){
+                if(a.includes(searchString)){
+                    searchString = a;
+                    break;
+                }
+            }
             if(searchString){
                 clear_map();
                 mymap.setView([40, 120], 6);
