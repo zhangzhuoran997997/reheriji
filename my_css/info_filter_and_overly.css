@@ -1,0 +1,45 @@
+#person_filter .col-lg-6{
+    padding: 7.5px 12px;
+}
+
+/*人物筛选框css*/
+#person_filter input{
+    vertical-align:middle
+}
+
+#person_filter label{
+    vertical-align:middle;
+    display: inline;
+    padding-left: 5px;
+}
+
+#person_filter .col-lg-12{
+    padding-left: 0px;
+}
+
+#person_filter input[name="assoc_type_checkbox"]{
+    margin-left: 5px;
+}
+
+/*地点筛选框css，同上*/
+#place_filter input{
+    vertical-align:middle
+}
+
+#place_filter label{
+    vertical-align:middle;
+    display: inline;
+    padding-left: 5px;
+}
+
+#place_filter .col-lg-12{
+    padding-left: 0px;
+}
+
+#place_filter input[name="fujunzhou_checkbox"]{
+    margin-left: 5px;
+}
+
+.maker_content{
+    text-align: center;
+}

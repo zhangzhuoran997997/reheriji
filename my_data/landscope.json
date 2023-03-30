@@ -1,0 +1,19 @@
+
+{
+    "南京":
+    [{
+      "certain_place_name": "夫子庙",
+      "certain_place_id": "hvd_301",
+      "xy_coordinates": "(118.79E,32.02N)",
+      "img_url": "https://img1.baidu.com/it/u=1810159484,3709206725&fm=253&fmt=auto&app=138&f=JPEG?w=784&h=500"
+    },
+    {
+      "certain_place_name": "明长城",
+      "certain_place_id": "hvd_302",
+      "xy_coordinates": "(118.80E,32.06N)",
+      "img_url": "https://img2.baidu.com/it/u=1420957026,1161106272&fm=253&fmt=auto&app=120&f=JPEG?w=870&h=580"
+    }
+    ]
+}
+
+

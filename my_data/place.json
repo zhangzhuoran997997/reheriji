@@ -1,0 +1,1318 @@
+
+<!-- saved from url=(0034)https://api-nianpu.pkudh.org/place -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>[
+    {
+        "place_id": "hvd_95638",
+        "place_name": "阳曲县",
+        "xy_coordinates": "(112.56483E,37.87375N)",
+        "belong_place_id": "hvd_94242",
+        "belong_place_name": "太原府",
+        "belong_place_id2": "hvd_111912",
+        "belong_place_name2": "河东路"
+    },
+    {
+        "place_id": "hvd_95624",
+        "place_name": "清源县",
+        "xy_coordinates": "(112.50900E,37.55718N)",
+        "belong_place_id": "hvd_94242",
+        "belong_place_name": "太原府",
+        "belong_place_id2": "hvd_111912",
+        "belong_place_name2": "河东路"
+    },
+    {
+        "place_id": "hvd_40272",
+        "place_name": "邵武县",
+        "xy_coordinates": "(117.48340E,27.33769N)",
+        "belong_place_id": "hvd_32033",
+        "belong_place_name": "邵武军",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40279",
+        "place_name": "泰宁县",
+        "xy_coordinates": "(117.15911E,26.89849N)",
+        "belong_place_id": "hvd_32033",
+        "belong_place_name": "邵武军",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40273",
+        "place_name": "光泽县",
+        "xy_coordinates": "(117.33325E,27.53952N)",
+        "belong_place_id": "hvd_32033",
+        "belong_place_name": "邵武军",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40239",
+        "place_name": "建阳县",
+        "xy_coordinates": "(118.10537E,27.33988N)",
+        "belong_place_id": "hvd_32062",
+        "belong_place_name": "建州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40228",
+        "place_name": "建安县",
+        "xy_coordinates": "(118.32378E,27.03886N)",
+        "belong_place_id": "hvd_32062",
+        "belong_place_name": "建州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40248",
+        "place_name": "浦城县",
+        "xy_coordinates": "(118.53625E,27.92469N)",
+        "belong_place_id": "hvd_32062",
+        "belong_place_name": "建州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40253",
+        "place_name": "政和县",
+        "xy_coordinates": "(118.85319E,27.37210N)",
+        "belong_place_id": "hvd_32062",
+        "belong_place_name": "建州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40235",
+        "place_name": "崇安县",
+        "xy_coordinates": "(118.02678E,27.75603N)",
+        "belong_place_id": "hvd_32062",
+        "belong_place_name": "建州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40257",
+        "place_name": "晋江县",
+        "xy_coordinates": "(118.58990E,24.90964N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40321",
+        "place_name": "永春县",
+        "xy_coordinates": "(118.28717E,25.32579N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40322",
+        "place_name": "德化县",
+        "xy_coordinates": "(118.22922E,25.47695N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40262",
+        "place_name": "安溪县",
+        "xy_coordinates": "(118.18125E,25.06059N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40258",
+        "place_name": "惠安县",
+        "xy_coordinates": "(118.80282E,25.02208N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40260",
+        "place_name": "同安县",
+        "xy_coordinates": "(118.14412E,24.73605N)",
+        "belong_place_id": "hvd_32075",
+        "belong_place_name": "泉州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40828",
+        "place_name": "长乐县",
+        "xy_coordinates": "(119.51884E,25.95984N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40196",
+        "place_name": "福清县",
+        "xy_coordinates": "(119.38144E,25.72792N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40180",
+        "place_name": "怀安县",
+        "xy_coordinates": "(119.22961E,26.09374N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40172",
+        "place_name": "闽县",
+        "xy_coordinates": "(119.32158E,26.07395N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40204",
+        "place_name": "罗源县",
+        "xy_coordinates": "(119.54493E,26.49091N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40178",
+        "place_name": "侯官县",
+        "xy_coordinates": "(119.32158E,26.07395N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40200",
+        "place_name": "连江县",
+        "xy_coordinates": "(119.53447E,26.19802N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40207",
+        "place_name": "古田县",
+        "xy_coordinates": "(118.78490E,26.60171N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40227",
+        "place_name": "长溪县",
+        "xy_coordinates": "(119.99039E,26.88346N)",
+        "belong_place_id": "hvd_32089",
+        "belong_place_name": "福州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40317",
+        "place_name": "沙县",
+        "xy_coordinates": "(117.78179E,26.39761N)",
+        "belong_place_id": "hvd_32133",
+        "belong_place_name": "南剑州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40309",
+        "place_name": "顺昌县",
+        "xy_coordinates": "(117.80628E,26.79709N)",
+        "belong_place_id": "hvd_32133",
+        "belong_place_name": "南剑州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40318",
+        "place_name": "尤溪县",
+        "xy_coordinates": "(118.18219E,26.17185N)",
+        "belong_place_id": "hvd_32133",
+        "belong_place_name": "南剑州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40307",
+        "place_name": "剑浦县",
+        "xy_coordinates": "(118.16918E,26.64217N)",
+        "belong_place_id": "hvd_32133",
+        "belong_place_name": "南剑州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40313",
+        "place_name": "将乐县",
+        "xy_coordinates": "(117.45502E,26.72082N)",
+        "belong_place_id": "hvd_32133",
+        "belong_place_name": "南剑州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40331",
+        "place_name": "漳浦县",
+        "xy_coordinates": "(117.61073E,24.11710N)",
+        "belong_place_id": "hvd_32140",
+        "belong_place_name": "漳州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40328",
+        "place_name": "龙溪县",
+        "xy_coordinates": "(117.65305E,24.51174N)",
+        "belong_place_id": "hvd_32140",
+        "belong_place_name": "漳州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40339",
+        "place_name": "长泰县",
+        "xy_coordinates": "(117.75055E,24.62048N)",
+        "belong_place_id": "hvd_32140",
+        "belong_place_name": "漳州",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40300",
+        "place_name": "仙游县",
+        "xy_coordinates": "(118.68367E,25.36456N)",
+        "belong_place_id": "hvd_32146",
+        "belong_place_name": "兴化军",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_40298",
+        "place_name": "莆田县",
+        "xy_coordinates": "(119.01110E,25.43395N)",
+        "belong_place_id": "hvd_32146",
+        "belong_place_name": "兴化军",
+        "belong_place_id2": "hvd_30002",
+        "belong_place_name2": "福建路"
+    },
+    {
+        "place_id": "hvd_41329",
+        "place_name": "休宁县",
+        "xy_coordinates": "(118.17577E,29.78119N)",
+        "belong_place_id": "hvd_32451",
+        "belong_place_name": "徽州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41320",
+        "place_name": "歙县",
+        "xy_coordinates": "(118.43394E,29.86577N)",
+        "belong_place_id": "hvd_32451",
+        "belong_place_name": "徽州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41332",
+        "place_name": "婺源县",
+        "xy_coordinates": "(117.84459E,29.24473N)",
+        "belong_place_id": "hvd_32451",
+        "belong_place_name": "徽州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41324",
+        "place_name": "黟县",
+        "xy_coordinates": "(117.93021E,29.93312N)",
+        "belong_place_id": "hvd_32451",
+        "belong_place_name": "徽州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41344",
+        "place_name": "贵池县",
+        "xy_coordinates": "(117.48183E,30.65466N)",
+        "belong_place_id": "hvd_32455",
+        "belong_place_name": "池州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41150",
+        "place_name": "德安县",
+        "xy_coordinates": "(115.74503E,29.33056N)",
+        "belong_place_id": "hvd_32606",
+        "belong_place_name": "江州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41178",
+        "place_name": "乐平县",
+        "xy_coordinates": "(117.12409E,28.96499N)",
+        "belong_place_id": "hvd_32618",
+        "belong_place_name": "饶州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41171",
+        "place_name": "余干县",
+        "xy_coordinates": "(116.68195E,28.69155N)",
+        "belong_place_id": "hvd_32618",
+        "belong_place_name": "饶州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41166",
+        "place_name": "鄱阳县",
+        "xy_coordinates": "(116.66383E,28.99417N)",
+        "belong_place_id": "hvd_32618",
+        "belong_place_name": "饶州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41167",
+        "place_name": "德兴县",
+        "xy_coordinates": "(117.58012E,28.95341N)",
+        "belong_place_id": "hvd_32618",
+        "belong_place_name": "饶州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41203",
+        "place_name": "弋阳县",
+        "xy_coordinates": "(117.42131E,28.40188N)",
+        "belong_place_id": "hvd_32622",
+        "belong_place_name": "信州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41214",
+        "place_name": "玉山县",
+        "xy_coordinates": "(118.24018E,28.67960N)",
+        "belong_place_id": "hvd_32622",
+        "belong_place_name": "信州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41257",
+        "place_name": "铅山县",
+        "xy_coordinates": "(117.77659E,28.20845N)",
+        "belong_place_id": "hvd_32622",
+        "belong_place_name": "信州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41201",
+        "place_name": "上饶县",
+        "xy_coordinates": "(117.96489E,28.45069N)",
+        "belong_place_id": "hvd_32622",
+        "belong_place_name": "信州",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41133",
+        "place_name": "都昌县",
+        "xy_coordinates": "(116.18919E,29.27256N)",
+        "belong_place_id": "hvd_32629",
+        "belong_place_name": "南康军",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41131",
+        "place_name": "星子县",
+        "xy_coordinates": "(116.04112E,29.45349N)",
+        "belong_place_id": "hvd_32629",
+        "belong_place_name": "南康军",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_41137",
+        "place_name": "建昌县",
+        "xy_coordinates": "(115.76182E,29.08783N)",
+        "belong_place_id": "hvd_32629",
+        "belong_place_name": "南康军",
+        "belong_place_id2": "hvd_30043",
+        "belong_place_name2": "江南东路"
+    },
+    {
+        "place_id": "hvd_40396",
+        "place_name": "昆山县",
+        "xy_coordinates": "(120.94823E,31.38611N)",
+        "belong_place_id": "hvd_32073",
+        "belong_place_name": "平江府",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40406",
+        "place_name": "吴县",
+        "xy_coordinates": "(120.61862E,31.31271N)",
+        "belong_place_id": "hvd_32073",
+        "belong_place_name": "平江府",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40380",
+        "place_name": "常熟县",
+        "xy_coordinates": "(120.73379E,31.64658N)",
+        "belong_place_id": "hvd_32073",
+        "belong_place_name": "平江府",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40733",
+        "place_name": "奉化县",
+        "xy_coordinates": "(121.40691E,29.65166N)",
+        "belong_place_id": "hvd_32169",
+        "belong_place_name": "明州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40743",
+        "place_name": "鄞县",
+        "xy_coordinates": "(121.54266E,29.86632N)",
+        "belong_place_id": "hvd_32169",
+        "belong_place_name": "明州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40731",
+        "place_name": "慈溪县",
+        "xy_coordinates": "(121.44420E,29.97919N)",
+        "belong_place_id": "hvd_32169",
+        "belong_place_name": "明州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40822",
+        "place_name": "遂安县",
+        "xy_coordinates": "(118.73840E,29.48077N)",
+        "belong_place_id": "hvd_32175",
+        "belong_place_name": "严州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40803",
+        "place_name": "建德县",
+        "xy_coordinates": "(119.49886E,29.54448N)",
+        "belong_place_id": "hvd_32175",
+        "belong_place_name": "严州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40815",
+        "place_name": "桐庐县",
+        "xy_coordinates": "(119.66494E,29.80246N)",
+        "belong_place_id": "hvd_32175",
+        "belong_place_name": "严州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40730",
+        "place_name": "武义县",
+        "xy_coordinates": "(119.80227E,28.89545N)",
+        "belong_place_id": "hvd_32180",
+        "belong_place_name": "婺州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40725",
+        "place_name": "东阳县",
+        "xy_coordinates": "(120.22798E,29.26057N)",
+        "belong_place_id": "hvd_32180",
+        "belong_place_name": "婺州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40710",
+        "place_name": "兰溪县",
+        "xy_coordinates": "(119.47885E,29.20445N)",
+        "belong_place_id": "hvd_32180",
+        "belong_place_name": "婺州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40727",
+        "place_name": "永康县",
+        "xy_coordinates": "(120.02525E,28.89727N)",
+        "belong_place_id": "hvd_32180",
+        "belong_place_name": "婺州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40708",
+        "place_name": "金华县",
+        "xy_coordinates": "(119.64992E,29.10471N)",
+        "belong_place_id": "hvd_32180",
+        "belong_place_name": "婺州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40777",
+        "place_name": "新昌县",
+        "xy_coordinates": "(120.90211E,29.49465N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40793",
+        "place_name": "诸暨县",
+        "xy_coordinates": "(120.22766E,29.71314N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40774",
+        "place_name": "上虞县",
+        "xy_coordinates": "(120.97359E,29.95265N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40763",
+        "place_name": "会稽县",
+        "xy_coordinates": "(120.57826E,30.00451N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40762",
+        "place_name": "山阴县",
+        "xy_coordinates": "(120.57826E,30.00451N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40784",
+        "place_name": "萧山县",
+        "xy_coordinates": "(120.25893E,30.16149N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40768",
+        "place_name": "嵊县",
+        "xy_coordinates": "(120.81528E,29.58749N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40786",
+        "place_name": "余姚县",
+        "xy_coordinates": "(121.15276E,30.04907N)",
+        "belong_place_id": "hvd_32188",
+        "belong_place_name": "越州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40661",
+        "place_name": "宁海县",
+        "xy_coordinates": "(121.42555E,29.28362N)",
+        "belong_place_id": "hvd_32226",
+        "belong_place_name": "台州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40657",
+        "place_name": "临海县",
+        "xy_coordinates": "(121.12060E,28.84313N)",
+        "belong_place_id": "hvd_32226",
+        "belong_place_name": "台州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40676",
+        "place_name": "仙居县",
+        "xy_coordinates": "(120.73346E,28.85221N)",
+        "belong_place_id": "hvd_32226",
+        "belong_place_name": "台州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40651",
+        "place_name": "黄岩县",
+        "xy_coordinates": "(121.25835E,28.64261N)",
+        "belong_place_id": "hvd_32226",
+        "belong_place_name": "台州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40701",
+        "place_name": "永嘉县",
+        "xy_coordinates": "(120.65322E,28.01829N)",
+        "belong_place_id": "hvd_32235",
+        "belong_place_name": "温州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40685",
+        "place_name": "平阳县",
+        "xy_coordinates": "(120.55644E,27.67572N)",
+        "belong_place_id": "hvd_32235",
+        "belong_place_name": "温州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40693",
+        "place_name": "瑞安县",
+        "xy_coordinates": "(120.63069E,27.79051N)",
+        "belong_place_id": "hvd_32235",
+        "belong_place_name": "温州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40602",
+        "place_name": "丽水县",
+        "xy_coordinates": "(119.91301E,28.44873N)",
+        "belong_place_id": "hvd_32241",
+        "belong_place_name": "处州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40607",
+        "place_name": "青田县",
+        "xy_coordinates": "(120.28815E,28.14388N)",
+        "belong_place_id": "hvd_32241",
+        "belong_place_name": "处州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40597",
+        "place_name": "缙云县",
+        "xy_coordinates": "(120.05844E,28.64839N)",
+        "belong_place_id": "hvd_32241",
+        "belong_place_name": "处州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40615",
+        "place_name": "松阳县",
+        "xy_coordinates": "(119.48534E,28.45075N)",
+        "belong_place_id": "hvd_32241",
+        "belong_place_name": "处州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40620",
+        "place_name": "遂昌县",
+        "xy_coordinates": "(119.26347E,28.58789N)",
+        "belong_place_id": "hvd_32241",
+        "belong_place_name": "处州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40632",
+        "place_name": "江山县",
+        "xy_coordinates": "(118.61594E,28.73531N)",
+        "belong_place_id": "hvd_32245",
+        "belong_place_name": "衢州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40635",
+        "place_name": "开化县",
+        "xy_coordinates": "(118.40488E,29.14485N)",
+        "belong_place_id": "hvd_32245",
+        "belong_place_name": "衢州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40627",
+        "place_name": "常山县",
+        "xy_coordinates": "(118.50266E,28.90373N)",
+        "belong_place_id": "hvd_32245",
+        "belong_place_name": "衢州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40648",
+        "place_name": "西安县",
+        "xy_coordinates": "(118.86765E,28.95682N)",
+        "belong_place_id": "hvd_32245",
+        "belong_place_name": "衢州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40576",
+        "place_name": "丹阳县",
+        "xy_coordinates": "(119.56985E,31.99580N)",
+        "belong_place_id": "hvd_32301",
+        "belong_place_name": "镇江府",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40079",
+        "place_name": "钱塘县",
+        "xy_coordinates": "(120.16862E,30.29412N)",
+        "belong_place_id": "hvd_32336",
+        "belong_place_name": "杭州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40114",
+        "place_name": "盐官县",
+        "xy_coordinates": "(120.53750E,30.40628N)",
+        "belong_place_id": "hvd_32336",
+        "belong_place_name": "杭州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40092",
+        "place_name": "富阳县",
+        "xy_coordinates": "(119.94775E,30.05343N)",
+        "belong_place_id": "hvd_32336",
+        "belong_place_name": "杭州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40158",
+        "place_name": "德清县",
+        "xy_coordinates": "(120.08480E,30.55313N)",
+        "belong_place_id": "hvd_32341",
+        "belong_place_name": "湖州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40135",
+        "place_name": "武康县",
+        "xy_coordinates": "(119.96407E,30.55045N)",
+        "belong_place_id": "hvd_32341",
+        "belong_place_name": "湖州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40445",
+        "place_name": "无锡县",
+        "xy_coordinates": "(120.29767E,31.57461N)",
+        "belong_place_id": "hvd_32386",
+        "belong_place_name": "常州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40073",
+        "place_name": "海盐县",
+        "xy_coordinates": "(120.93202E,30.51786N)",
+        "belong_place_id": "hvd_32444",
+        "belong_place_name": "秀州",
+        "belong_place_id2": "hvd_30049",
+        "belong_place_name2": "两浙路"
+    },
+    {
+        "place_id": "hvd_40982",
+        "place_name": "南城县",
+        "xy_coordinates": "(116.62745E,27.55972N)",
+        "belong_place_id": "hvd_32522",
+        "belong_place_name": "建昌军",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40986",
+        "place_name": "南丰县",
+        "xy_coordinates": "(116.52993E,27.21431N)",
+        "belong_place_id": "hvd_32522",
+        "belong_place_name": "建昌军",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40998",
+        "place_name": "临川县",
+        "xy_coordinates": "(116.35134E,27.98478N)",
+        "belong_place_id": "hvd_32534",
+        "belong_place_name": "抚州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_41000",
+        "place_name": "金溪县",
+        "xy_coordinates": "(116.77626E,27.91008N)",
+        "belong_place_id": "hvd_32534",
+        "belong_place_name": "抚州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40941",
+        "place_name": "清江县",
+        "xy_coordinates": "(115.39899E,28.01557N)",
+        "belong_place_id": "hvd_32537",
+        "belong_place_name": "临江军",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40953",
+        "place_name": "新喻县",
+        "xy_coordinates": "(114.93114E,27.80408N)",
+        "belong_place_id": "hvd_32537",
+        "belong_place_name": "临江军",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40895",
+        "place_name": "吉水县",
+        "xy_coordinates": "(115.13225E,27.21437N)",
+        "belong_place_id": "hvd_32546",
+        "belong_place_name": "吉州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40888",
+        "place_name": "庐陵县",
+        "xy_coordinates": "(114.97128E,27.10324N)",
+        "belong_place_id": "hvd_32546",
+        "belong_place_name": "吉州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_40972",
+        "place_name": "萍乡县",
+        "xy_coordinates": "(113.83864E,27.63142N)",
+        "belong_place_id": "hvd_32570",
+        "belong_place_name": "袁州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_41110",
+        "place_name": "进贤县",
+        "xy_coordinates": "(116.25907E,28.36448N)",
+        "belong_place_id": "hvd_32588",
+        "belong_place_name": "洪州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_41104",
+        "place_name": "丰城县",
+        "xy_coordinates": "(115.78578E,28.19775N)",
+        "belong_place_id": "hvd_32588",
+        "belong_place_name": "洪州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_41095",
+        "place_name": "南昌县",
+        "xy_coordinates": "(115.89772E,28.67490N)",
+        "belong_place_id": "hvd_32588",
+        "belong_place_name": "洪州",
+        "belong_place_id2": "hvd_30138",
+        "belong_place_name2": "江南西路"
+    },
+    {
+        "place_id": "hvd_41736",
+        "place_name": "湘潭县",
+        "xy_coordinates": "(112.91126E,27.87270N)",
+        "belong_place_id": "hvd_32826",
+        "belong_place_name": "潭州",
+        "belong_place_id2": "hvd_30173",
+        "belong_place_name2": "荆湖南路"
+    },
+    {
+        "place_id": "hvd_41726",
+        "place_name": "醴陵县",
+        "xy_coordinates": "(113.49410E,27.66852N)",
+        "belong_place_id": "hvd_32826",
+        "belong_place_name": "潭州",
+        "belong_place_id2": "hvd_30173",
+        "belong_place_name2": "荆湖南路"
+    },
+    {
+        "place_id": "hvd_41862",
+        "place_name": "衡山县",
+        "xy_coordinates": "(112.85242E,27.24565N)",
+        "belong_place_id": "hvd_32826",
+        "belong_place_name": "潭州",
+        "belong_place_id2": "hvd_30173",
+        "belong_place_name2": "荆湖南路"
+    },
+    {
+        "place_id": "hvd_41856",
+        "place_name": "衡阳县",
+        "xy_coordinates": "(112.59704E,26.90162N)",
+        "belong_place_id": "hvd_32867",
+        "belong_place_name": "衡州",
+        "belong_place_id2": "hvd_30173",
+        "belong_place_name2": "荆湖南路"
+    },
+    {
+        "place_id": "hvd_41999",
+        "place_name": "营道县",
+        "xy_coordinates": "(111.59088E,25.53136N)",
+        "belong_place_id": "hvd_32899",
+        "belong_place_name": "道州",
+        "belong_place_id2": "hvd_30173",
+        "belong_place_name2": "荆湖南路"
+    },
+    {
+        "place_id": "hvd_43036",
+        "place_name": "巢县",
+        "xy_coordinates": "(117.86485E,31.60174N)",
+        "belong_place_id": "hvd_33489",
+        "belong_place_name": "无为军",
+        "belong_place_id2": "hvd_30320",
+        "belong_place_name2": "淮南西路"
+    },
+    {
+        "place_id": "hvd_43001",
+        "place_name": "怀宁县",
+        "xy_coordinates": "(116.56720E,30.63035N)",
+        "belong_place_id": "hvd_33499",
+        "belong_place_name": "舒州",
+        "belong_place_id2": "hvd_30320",
+        "belong_place_name2": "淮南西路"
+    },
+    {
+        "place_id": "hvd_43213",
+        "place_name": "蕲县",
+        "xy_coordinates": "(117.01277E,33.44256N)",
+        "belong_place_id": "hvd_33525",
+        "belong_place_name": "宿州",
+        "belong_place_id2": "hvd_30324",
+        "belong_place_name2": "淮南东路"
+    },
+    {
+        "place_id": "hvd_45678",
+        "place_name": "宜城县",
+        "xy_coordinates": "(112.26013E,31.71070N)",
+        "belong_place_id": "hvd_105080",
+        "belong_place_name": "襄阳府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_44395",
+        "place_name": "华阳县",
+        "xy_coordinates": "(104.07800E,30.65038N)",
+        "belong_place_id": "hvd_115104",
+        "belong_place_name": "成都府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_70938",
+        "place_name": "郿县",
+        "xy_coordinates": "(107.79633E,34.47827N)",
+        "belong_place_id": "hvd_115217",
+        "belong_place_name": "凤翔府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_44681",
+        "place_name": "石照县",
+        "xy_coordinates": "(106.25956E,30.00394N)",
+        "belong_place_id": "hvd_115318",
+        "belong_place_name": "合州",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_82836",
+        "place_name": "河南县",
+        "xy_coordinates": "(112.38263E,34.66528N)",
+        "belong_place_id": "hvd_115332",
+        "belong_place_name": "河南府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_82840",
+        "place_name": "洛阳县",
+        "xy_coordinates": "(112.38263E,34.66528N)",
+        "belong_place_id": "hvd_115332",
+        "belong_place_name": "河南府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_70626",
+        "place_name": "长安县",
+        "xy_coordinates": "(108.90697E,34.24642N)",
+        "belong_place_id": "hvd_115470",
+        "belong_place_name": "京兆府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_95294",
+        "place_name": "夏县",
+        "xy_coordinates": "(111.22005E,35.13745N)",
+        "belong_place_id": "hvd_115770",
+        "belong_place_name": "陕州",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_40282",
+        "place_name": "长汀县",
+        "xy_coordinates": "(116.34954E,25.83338N)",
+        "belong_place_id": "hvd_32041",
+        "belong_place_name": "汀州",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_82086",
+        "place_name": "宁陵县",
+        "xy_coordinates": "(115.31537E,34.44598N)",
+        "belong_place_id": "hvd_32287",
+        "belong_place_name": "应天府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_42806",
+        "place_name": "丰县",
+        "xy_coordinates": "(116.58418E,34.70362N)",
+        "belong_place_id": "hvd_33441",
+        "belong_place_name": "徐州",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_43452",
+        "place_name": "大冶县",
+        "xy_coordinates": "(114.96296E,30.09314N)",
+        "belong_place_id": "hvd_34366",
+        "belong_place_name": "兴国军",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_43676",
+        "place_name": "江陵县",
+        "xy_coordinates": "(112.19077E,30.35044N)",
+        "belong_place_id": "hvd_34435",
+        "belong_place_name": "江陵府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_44404",
+        "place_name": "双流县",
+        "xy_coordinates": "(103.92331E,30.57989N)",
+        "belong_place_id": "hvd_96628",
+        "belong_place_name": "成都府",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_44413",
+        "place_name": "晋原县",
+        "xy_coordinates": "(103.67261E,30.63656N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_83137",
+        "place_name": "汝阳县",
+        "xy_coordinates": "(114.34600E,33.00754N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_85235",
+        "place_name": "临淄县",
+        "xy_coordinates": "(118.37041E,36.86401N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_96390",
+        "place_name": "盘石县",
+        "xy_coordinates": "(104.84836E,29.78475N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_82203",
+        "place_name": "临漳县",
+        "xy_coordinates": "(114.54042E,36.25668N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_40969",
+        "place_name": "宜春县",
+        "xy_coordinates": "(114.37589E,27.79427N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_40240",
+        "place_name": "嘉禾县",
+        "xy_coordinates": "(118.10537E,27.33988N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_40606",
+        "place_name": "龙泉县",
+        "xy_coordinates": "(119.12091E,28.08257N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_70342",
+        "place_name": "白水县",
+        "xy_coordinates": "(109.58706E,35.18162N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_82528",
+        "place_name": "阳武县",
+        "xy_coordinates": "(113.96297E,35.05195N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_96176",
+        "place_name": "眉山县",
+        "xy_coordinates": "(103.83146E,30.05050N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_44323",
+        "place_name": "开封县",
+        "xy_coordinates": "(114.34333E,34.78548N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_45803",
+        "place_name": "夷陵县",
+        "xy_coordinates": "(111.28712E,30.70423N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    },
+    {
+        "place_id": "hvd_40917",
+        "place_name": "龙泉县",
+        "xy_coordinates": "(114.50566E,26.32788N)",
+        "belong_place_id": "hvd_999999",
+        "belong_place_name": "其他",
+        "belong_place_id2": "hvd_99999999",
+        "belong_place_name2": "其他"
+    }
+]</body></html>
